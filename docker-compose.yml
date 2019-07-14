@@ -1,0 +1,34 @@
+version: '3'
+services:
+  db:
+    hostname: primary
+    image: sogis/oereb-db:ziegler
+    environment:
+      PG_DATABASE: oereb
+      PG_LOCALE: de_CH.UTF-8
+      PG_PRIMARY_PORT: 5432
+      PG_MODE: primary
+      PG_USER: admin
+      PG_PASSWORD: admin
+      PG_PRIMARY_USER: repl
+      PG_PRIMARY_PASSWORD: repl
+      PG_ROOT_PASSWORD: secret
+      PG_WRITE_USER: gretl
+      PG_WRITE_PASSWORD: gretl
+      PG_READ_USER: ogc_server
+      PG_READ_PASSWORD: ogc_server
+    ports:
+      - "54321:5432"
+    volumes:
+      #- ~/oereb-pgdata:/pgdata:delegated
+      - /tmp:/pgdata:delegated
+    restart: always
+  wms:
+    depends_on:
+      - db
+    image: sogis/geoserver:latest
+    #command: sh -c 'wait-for postgres:5432 -- start.sh'
+    command: start.sh
+    ports:
+      - "8080:8080"
+    restart: always
