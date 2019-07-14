@@ -30,5 +30,6 @@ docker-compose -f docker-compose.yml -f docker-compose.geoserver.dev.yml build
 Since the database is empty when created, you need to import some data. Therefor have a look at the [GRETL-Jobs](https://github.com/sogis/oereb-gretljobs).
 
 ## TODO
+- travis
 - oereb-db version?
 - ...
