@@ -25,7 +25,7 @@
     <entry key="Connection timeout">20</entry>
     <entry key="create database">false</entry>
     <entry key="port">5432</entry>
-    <entry key="passwd">crypt1:dPpH9DceEadcfHHD4xP9oA==</entry>
+    <entry key="passwd">crypt1:ey3MNnQCybEC57h85Y7d+A==</entry>
     <entry key="min connections">1</entry>
     <entry key="dbtype">postgis</entry>
     <entry key="namespace">http://agi.so.ch/oereb</entry>

@@ -3,7 +3,7 @@ services:
   wms:
     depends_on:
       - db
-    image: sogis/geoserver
+    image: sogis/geoserver:latest
     build:
       context: ./
       dockerfile: Dockerfile

@@ -1,15 +1,14 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--5be3950d:16be13a71da:-7ffd</id>
+  <id>FeatureTypeInfoImpl-1a6f9f92:16c0ffe963a:-7fff</id>
   <name>ch.so.arp.nutzungsplanung.grundnutzung</name>
-  <nativeName>v_nutzungsplanung_grundnutzung</nativeName>
+  <nativeName>vw_oerebwms_nutzungsplanung_grundnutzung_flaeche</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-7c4f3b4f:16bd238fc3d:-7ffe</id>
   </namespace>
   <title>Nutzungsplanung - Grundnutzung</title>
-  <abstract>Grundnutzung der Nutzungsplanung</abstract>
   <keywords>
     <string>features</string>
-    <string>v_nutzungsplanung_grundnutzung</string>
+    <string>vw_oerebwms_nutzungsplanung_grundnutzung_flaeche</string>
   </keywords>
   <nativeCRS class="projected">PROJCS[&quot;CH1903+ / LV95&quot;, 
   GEOGCS[&quot;CH1903+&quot;, 
@@ -36,17 +35,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;2056&quot;]]</nativeCRS>
   <srs>EPSG:2056</srs>
   <nativeBoundingBox>
-    <minx>2599016.75</minx>
-    <maxx>2639393.0</maxx>
-    <miny>1214522.5</miny>
-    <maxy>1251477.0</maxy>
+    <minx>2599216.944</minx>
+    <maxx>2639192.926</maxx>
+    <miny>1214705.586</miny>
+    <maxy>1251294.0</maxy>
     <crs class="projected">EPSG:2056</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>7.425594934422907</minx>
-    <maxx>7.960588845716402</maxx>
-    <miny>47.08054546679827</miny>
-    <maxy>47.41410236120068</maxy>
+    <minx>7.428247936412352</minx>
+    <maxx>7.957921870560755</maxx>
+    <miny>47.0822041339043</miny>
+    <maxy>47.412456722362656</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
